@@ -1,0 +1,5 @@
+#!/bin/sh 
+echo F $2   | nc localhost $1  
+echo V MEM  | nc localhost $1  
+echo E $3  | nc localhost $1  
+echo G TO_VFO  | nc localhost $1  
